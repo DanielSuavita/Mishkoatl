@@ -1,0 +1,20 @@
+<ion-menu contentId="Main-Menu" menuId="Main-Menu" side="start">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title>¿Qué te gustaría ver?</ion-title>
+            <ion-buttons slot="end">
+                <ion-back-button></ion-back-button>
+            </ion-buttons>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <ion-menu-toggle autohide="false" *ngFor="let element of Menu">
+                <ion-item [routerLink]="element.url">
+                    <ion-icon slot="start" [name]="element.icon"></ion-icon>
+                    <ion-label>{{element.name}}</ion-label>
+                </ion-item>
+            </ion-menu-toggle>
+        </ion-list>
+    </ion-content>
+</ion-menu>

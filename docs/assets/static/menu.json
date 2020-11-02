@@ -1,0 +1,36 @@
+[{
+        "icon": "ear-outline",
+        "name": "Aretes",
+        "url": "/products/Earings"
+    },
+    {
+        "icon": "git-network-outline",
+        "name": "Collares",
+        "url": "/products/Necklaces"
+    },
+    {
+        "icon": "git-merge-outline",
+        "name": "Gargantillas",
+        "url": "/products/Chokers"
+    },
+    {
+        "icon": "hand-left-outline",
+        "name": "Pulseras",
+        "url": "/products/HandBracelet"
+    },
+    {
+        "icon": "paw-outline",
+        "name": "Tobilleras",
+        "url": "/products/FeetBracelet"
+    },
+    {
+        "icon": "color-palette-outline",
+        "name": "Pinturas",
+        "url": "/products/Paintings"
+    },
+    {
+        "icon": "card-outline",
+        "name": "Minipinturas",
+        "url": "/products/Minipaintings"
+    }
+]
