@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1604282149504,
+  "timestamp": 1604413879044,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -125,6 +125,7 @@
         "/main-es2015.869f0d1e7bb609dd8457.js",
         "/main-es5.869f0d1e7bb609dd8457.js",
         "/manifest.webmanifest",
+        "/ngsw-worker.js",
         "/polyfills-core-js-es2015.22f1882a210e2656646e.js",
         "/polyfills-core-js-es5.22f1882a210e2656646e.js",
         "/polyfills-css-shim-es2015.22cdb8d3838f1709ac9b.js",
@@ -133,9 +134,13 @@
         "/polyfills-dom-es5.24551ae9e0bc5335f9b7.js",
         "/polyfills-es2015.91389ecfa80f1063947d.js",
         "/polyfills-es5.7f04130fb748fb469cc3.js",
-        "/runtime-es2015.3def7f03fc60d6e71d18.js",
-        "/runtime-es5.3def7f03fc60d6e71d18.js",
-        "/styles.b90531eb9c5954f757a1.css"
+        "/runtime-es2015.0eac6710b5cdf99ae044.js",
+        "/runtime-es2015.63855d682cefd094ca12.js",
+        "/runtime-es5.0eac6710b5cdf99ae044.js",
+        "/runtime-es5.63855d682cefd094ca12.js",
+        "/safety-worker.js",
+        "/styles.b90531eb9c5954f757a1.css",
+        "/worker-basic.min.js"
       ],
       "patterns": []
     },
@@ -303,10 +308,11 @@
     "/assets/static/paintings.json": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
     "/common-es2015.1a9fcaa6cd2c04c791b9.js": "0934ed600c1c8e08f54506914420150f5441defa",
     "/common-es5.1a9fcaa6cd2c04c791b9.js": "fb8e2fa73a14ddea5ff1062e1946ae0594d2d208",
-    "/index.html": "75c48da77248d6d1f3076ecd6cb22c5f0755d75b",
+    "/index.html": "faf2e94553d8d0f760274b844a8c56f05883e701",
     "/main-es2015.869f0d1e7bb609dd8457.js": "f214bd8ab047852113afa6741259a531f3de83ec",
     "/main-es5.869f0d1e7bb609dd8457.js": "6d7fbe19c8771c7a011db47bb78e40762f6c364d",
     "/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
+    "/ngsw-worker.js": "601253069e8f1d4f717e0bd54332587669d68261",
     "/polyfills-core-js-es2015.22f1882a210e2656646e.js": "f007c630c357ee7eeec2289a6cfc013dbcbe6fe9",
     "/polyfills-core-js-es5.22f1882a210e2656646e.js": "8531ee642b05d9e12e859babeaec61c2b1c1e57a",
     "/polyfills-css-shim-es2015.22cdb8d3838f1709ac9b.js": "5ee260a7051a19dcf88aeaed726570fa19ac1d4c",
@@ -315,9 +321,13 @@
     "/polyfills-dom-es5.24551ae9e0bc5335f9b7.js": "50e795de8617f137b6640a5f3b7c432dd75900f1",
     "/polyfills-es2015.91389ecfa80f1063947d.js": "8ea3172d9dfcf79a7dea59945f5c6db8864d21f6",
     "/polyfills-es5.7f04130fb748fb469cc3.js": "a25578164cd3191cc5b39071e25f6be9f62477eb",
-    "/runtime-es2015.3def7f03fc60d6e71d18.js": "1bd756519ac703c69356db889639e4fbc38cea8c",
-    "/runtime-es5.3def7f03fc60d6e71d18.js": "2408decd3a33dfff2ff818c99042e781b294c493",
-    "/styles.b90531eb9c5954f757a1.css": "54cea12bcba483376a503f8129ffb6fc11e9de49"
+    "/runtime-es2015.0eac6710b5cdf99ae044.js": "9eaef5758422d6dcf819d671ca9185e6a2b46a05",
+    "/runtime-es2015.63855d682cefd094ca12.js": "ca4f7d79de04990d61c14302f677f5d75c7c14c9",
+    "/runtime-es5.0eac6710b5cdf99ae044.js": "c0ffe35a280bcbc325d5fb230612af10ca5c58c9",
+    "/runtime-es5.63855d682cefd094ca12.js": "9467211b8c0d6115768b956a6464ecd9cbc22141",
+    "/safety-worker.js": "f532926317210be6e2679d21748dc44a35389807",
+    "/styles.b90531eb9c5954f757a1.css": "54cea12bcba483376a503f8129ffb6fc11e9de49",
+    "/worker-basic.min.js": "f532926317210be6e2679d21748dc44a35389807"
   },
   "navigationUrls": [
     {
