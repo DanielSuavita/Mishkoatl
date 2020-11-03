@@ -1,0 +1,12 @@
+{
+    "service": [{
+        "name": "Pinturas",
+        "img": "http://lorempixel.com/350/250",
+        "description": "Debes saber que soy pintora, y aunque aún estoy en constante formación me apasiona estar al servicio del arte. Significa que si necesitas alguna pintura, te estaré agradecida por apoyarme y haré que llegue a tu hogar lo más pronto posible. (Siempre y cuando pagues por adelantado)."
+    }],
+
+    "data": [{
+
+    }]
+
+}

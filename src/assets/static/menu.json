@@ -1,4 +1,9 @@
 [{
+        "icon": "person-circle-outline",
+        "name": "Sobre mí",
+        "url": "/about"
+    },
+    {
         "icon": "ear-outline",
         "name": "Aretes",
         "url": "/products/Earings"
@@ -26,11 +31,11 @@
     {
         "icon": "color-palette-outline",
         "name": "Pinturas",
-        "url": "/products/Paintings"
+        "url": "/myservices/Paintings"
     },
     {
         "icon": "card-outline",
         "name": "Minipinturas",
-        "url": "/products/Minipaintings"
+        "url": "/myservices/Minipaintings"
     }
 ]

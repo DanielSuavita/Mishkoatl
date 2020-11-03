@@ -14,7 +14,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "docs",
+                        "outputPath": "www",
                         "baseHref": "/",
                         "deployUrl": "/",
                         "index": "src/index.html",

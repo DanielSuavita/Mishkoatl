@@ -3,10 +3,17 @@
     <ion-grid fixed>
         <ion-row>
             <ion-col size="12">
-                <h2>¡Bienvenido a mi pequeña tienda!</h2>
-                <p>Aquí encontrarás joyería artesanal, también encontrarás mis servicios como artista en formación.</p>
+                <ion-card>
+                    <ion-card-header>
+                        <ion-card-title>¡Bienvenido a mi pequeña tienda!</ion-card-title>
+                        <ion-card-subtitle></ion-card-subtitle>
+                    </ion-card-header>
+                    <ion-card-content>
+                        <p>Aquí encontrarás joyería artesanal, también encontrarás mis servicios como artista en formación.</p>
+                    </ion-card-content>
+                </ion-card>
             </ion-col>
-            <ion-col size="12" size-lg="3" size-md="6" size-sm="6">
+            <ion-col size="12" size-lg="6" size-md="6" size-sm="6">
                 <ion-card routerLink="products/Earings">
                     <ion-card-header>
                         <ion-card-title>
@@ -17,10 +24,10 @@
                         </ion-card-title>
                         <ion-card-subtitle>¡Mira mi inventario!</ion-card-subtitle>
                     </ion-card-header>
-                    <ion-img width="80" height="80" src="/assets/images/joya(1).jpeg"></ion-img>
+                    <ion-img src="/assets/images/joya(1).jpeg" alt=""></ion-img>
                 </ion-card>
             </ion-col>
-            <ion-col size="12" size-lg="3" size-md="6" size-sm="6">
+            <ion-col size="12" size-lg="6" size-md="6" size-sm="6">
                 <ion-card routerLink="products/Paintings">
                     <ion-card-header>
                         <ion-card-title>
@@ -31,7 +38,7 @@
                         </ion-card-title>
                         <ion-card-subtitle>¡Contrata mis servicios!</ion-card-subtitle>
                     </ion-card-header>
-                    <ion-img width="80" height="80" src="/assets/images/mini(1).jpg"></ion-img>
+                    <ion-img src="/assets/images/mini(1).jpg" alt=""></ion-img>
                 </ion-card>
             </ion-col>
         </ion-row>

@@ -1,13 +1,15 @@
-<ion-card>
+<ion-card *ngIf="Services != null">
     <ion-card-header color="tertiary">
-        <ion-card-title>{{Product.name}}</ion-card-title>
-        <ion-card-subtitle>{{Product.price}} MXN</ion-card-subtitle>
+        <ion-card-title>{{Services.name}}</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-        <img class="Product-img" [src]="Product.img" alt="">
+        <ion-card>
+            <ion-img [src]="Services.img" alt=""></ion-img>
+        </ion-card>
+        {{Services.description}}
     </ion-card-content>
     <ion-button (click)="gotoWhatsApp()" color="primary" expand="block">
         <ion-icon name="logo-whatsapp"></ion-icon>
-        Comprar
+        Solicitar
     </ion-button>
 </ion-card>

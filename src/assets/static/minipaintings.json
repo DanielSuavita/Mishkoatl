@@ -1,0 +1,12 @@
+{
+    "service": [{
+        "name": "Minipinturas",
+        "img": "/assets/images/mini(1).jpg",
+        "description": "Debes saber que siendo artista me debo adaptar a las necesidades sociales, Por ello, si no tienes dónde colgar una pintura te ofrezco 'Minipinturas'. Puedes ponerlas en una mesa o en un estante, ¡Y no te ocuparán espacio! También puedes regalar una para alguien especial."
+    }],
+
+    "data": [{
+
+    }]
+
+}

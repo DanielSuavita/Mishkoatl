@@ -5,6 +5,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ProductComponent } from './product/product.component';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
+import { ServicesComponent } from './services/services.component';
 
 
 
@@ -12,7 +13,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     HeaderComponent,
     MenuComponent,
-    ProductComponent
+    ProductComponent,
+    ServicesComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { RouterModule } from '@angular/router';
   exports: [
     HeaderComponent,
     MenuComponent,
-    ProductComponent
+    ProductComponent,
+    ServicesComponent
   ]
 })
 export class ComponentsModule { }
