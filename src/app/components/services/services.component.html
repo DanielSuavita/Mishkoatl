@@ -1,15 +1,15 @@
-<ion-card *ngIf="Services != null">
+<ion-card>
     <ion-card-header color="tertiary">
-        <ion-card-title>{{Services.name}}</ion-card-title>
+        <ion-card-title>{{Service.name}}</ion-card-title>
     </ion-card-header>
+    <ion-card>
+        <ion-img [src]="Service.img" alt=""></ion-img>
+    </ion-card>
     <ion-card-content>
-        <ion-card>
-            <ion-img [src]="Services.img" alt=""></ion-img>
-        </ion-card>
-        {{Services.description}}
+        {{Service.description}}
+        <ion-button (click)="gotoWhatsApp()" color="primary" expand="block">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            Solicitar
+        </ion-button>
     </ion-card-content>
-    <ion-button (click)="gotoWhatsApp()" color="primary" expand="block">
-        <ion-icon name="logo-whatsapp"></ion-icon>
-        Solicitar
-    </ion-button>
 </ion-card>

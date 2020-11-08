@@ -1,41 +1,16 @@
 [{
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
+        "name": "Aretes Caballito de Mar",
+        "img": "assets/images/aretes(3).jpeg",
+        "price": "50"
     },
     {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
+        "name": "Aretes con Ornamentación de Piedras",
+        "img": "assets/images/aretes(2).jpeg",
+        "price": "60"
     },
     {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
-    },
-    {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
-    },
-    {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
-    },
-    {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
-    },
-    {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
-    },
-    {
-        "name": "Aretes Simples",
-        "img": "http://lorempixel.com/350/250",
-        "price": "200"
+        "name": "Aretes con Tejido Ornamental",
+        "img": "assets/images/aretes(1).jpeg",
+        "price": "50"
     }
 ]

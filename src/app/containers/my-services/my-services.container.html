@@ -1,0 +1,7 @@
+<ion-grid fixed>
+    <ion-row>
+        <ion-col size="12" size-lg="6" size-md="6" size-sm="6" *ngFor="let Service of Services">
+            <app-services [Service]="Service"></app-services>
+        </ion-col>
+    </ion-row>
+</ion-grid>

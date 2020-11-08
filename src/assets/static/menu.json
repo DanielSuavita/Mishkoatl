@@ -30,12 +30,7 @@
     },
     {
         "icon": "color-palette-outline",
-        "name": "Pinturas",
+        "name": "Mis Servicios",
         "url": "/myservices/Paintings"
-    },
-    {
-        "icon": "card-outline",
-        "name": "Minipinturas",
-        "url": "/myservices/Minipaintings"
     }
 ]

@@ -9,6 +9,7 @@ import { MyServicesPageRoutingModule } from './my-services-routing.module';
 import { MyServicesPage } from './my-services.page';
 import { ComponentsModule } from '@components/components.module';
 import { RouterModule } from '@angular/router';
+import { ContainersModule } from '@containers/containers.module';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { RouterModule } from '@angular/router';
     IonicModule,
     MyServicesPageRoutingModule,
     ComponentsModule,
+    ContainersModule,
     RouterModule
   ],
   declarations: [MyServicesPage]

@@ -28,7 +28,8 @@ export class MyServicesPage implements OnInit {
 
   public getServices(){
     this.ServiceService.getServices(this.Path.toLocaleLowerCase()).subscribe(({service})=>{
-      this.Services = service[0];
+      console.table(service);
+      this.Services = service;
     });
   }
 

@@ -9,11 +9,13 @@ import { ToastController } from '@ionic/angular';
 })
 export class ServicesComponent implements OnInit {
 
-  @Input("Services") Services:any;
+  @Input("Service") Service:any;
 
   constructor(public toastController: ToastController) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.table(this.Service);
+  }
 
   async gotoWhatsApp(){
     const WHATSAPPMESSAGE = "Buen día, me gustaría solicitar tus servicios de artista plástico";

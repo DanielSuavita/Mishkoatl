@@ -1,9 +1,15 @@
 {
     "service": [{
-        "name": "Pinturas",
-        "img": "http://lorempixel.com/350/250",
-        "description": "Debes saber que soy pintora, y aunque aún estoy en constante formación me apasiona estar al servicio del arte. Significa que si necesitas alguna pintura, te estaré agradecida por apoyarme y haré que llegue a tu hogar lo más pronto posible. (Siempre y cuando pagues por adelantado)."
-    }],
+            "name": "Pinturas",
+            "img": "http://lorempixel.com/350/250/fashion",
+            "description": "Debes saber que soy pintora, y aunque aún estoy en constante formación me apasiona estar al servicio del arte. Significa que si necesitas alguna pintura, te estaré agradecida por apoyarme y haré que llegue a tu hogar lo más pronto posible. (Siempre y cuando pagues por adelantado)."
+        },
+        {
+            "name": "Minipinturas",
+            "img": "/assets/images/mini(1).jpg",
+            "description": "Debes saber que siendo artista me debo adaptar a las necesidades sociales, Por ello, si no tienes dónde colgar una pintura te ofrezco 'Minipinturas'. Puedes ponerlas en una mesa o en un estante, ¡Y no te ocuparán espacio! También puedes regalar una para alguien especial."
+        }
+    ],
 
     "data": [{
 

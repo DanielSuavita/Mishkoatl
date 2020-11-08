@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ToastController } from '@ionic/angular';
+import { ProductInterface } from '@utils/interfaces/product.interface';
 
 @Component({
   selector: 'app-product',
@@ -8,14 +9,14 @@ import { ToastController } from '@ionic/angular';
 })
 export class ProductComponent implements OnInit {
 
-  @Input("Product") Product:any = [];
+  @Input("Product") Product:ProductInterface;
 
   constructor(public toastController: ToastController) { }
 
   ngOnInit() { }
   
   async gotoWhatsApp(){
-    const WHATSAPPMESSAGE = "Buen día, me interesa obtener un(a) producto";
+    const WHATSAPPMESSAGE = `Buen día, me interesa obtener el producto ${this.Product.name}, cuyo precio es ${this.Product.price} pesos mexicanos.`;
     const toast = await this.toastController.create({
       position: 'middle',
       message: 'Será redireccionado a WhatsApp.',

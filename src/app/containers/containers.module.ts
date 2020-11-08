@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { ProductContainer } from './product/product.container';
 import { IonicModule } from '@ionic/angular';
 import { ComponentsModule } from '../components/components.module';
+import { MyServicesContainer } from './my-services/my-services.container';
 
 
 @NgModule({
   declarations: [
-    ProductContainer
+    ProductContainer,
+    MyServicesContainer
   ],
   imports: [
     CommonModule,
@@ -15,7 +17,8 @@ import { ComponentsModule } from '../components/components.module';
     ComponentsModule
   ],
   exports:[
-    ProductContainer
+    ProductContainer,
+    MyServicesContainer
   ]
 })
 export class ContainersModule { }
